@@ -14,7 +14,7 @@ function TableComponent() {
   const getPSI = async () => {
     await Axios.get("https://api.data.gov.sg/v1/environment/psi").then(
       (result) => {
-        setTimeStamp(result.data.items[0].timestamp);
+        setTimeStamp(result.data.items[0].update_timestamp);
 
         let keysArray = Object.keys(result.data.items[0].readings);
         const metric_column = keysArray.map((item) => ({ metric: item }));
