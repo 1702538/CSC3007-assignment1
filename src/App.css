@@ -4,12 +4,11 @@ body {
 .wrapper {
   background: linear-gradient(
     45deg,
-    #2af598,
-    #22e4ac,
-    #1bd7bb,
-    #14c9cb,
-    #0fbed8,
-    #08b3e5
+    #ffffff,
+    #e7e7e7,
+    #d1d1d1,
+    #b6b6b6,
+    #9b9b9b
   );
   background-size: 600% 100%;
   animation: gradient 16s linear infinite;
